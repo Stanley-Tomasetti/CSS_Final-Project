@@ -1,0 +1,57 @@
+.header, 
+.footer,
+.subheader {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 53, 70);
+    color: white;
+}
+.header {
+    justify-content: space-between;
+    padding: 10px 45px 45px 45px;
+}
+.sidelinks a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+.subheader {
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 45px 45px 45px;
+}
+.subheader-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+}
+.subheader-left {
+    max-width: 350px;
+}
+.top {
+   font-size: 48px;
+   font-weight: bolder;
+   margin-bottom: 3px; 
+}
+.subheader-left .button {
+    background-color: rgb(110, 110, 228);
+    color: white;
+    padding: 3px 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer {
+    justify-content: center;
+    padding: 20px;
+}
